@@ -241,7 +241,7 @@ getBendTableFromCSV(char *csv, int *rowcount)
                 }
                 else if (rc >= 4)
                 {
-                    printf("too many numbers withthout a breakk\\n");
+                    printf("too many numbers withthout a break\\n");
                 }
                 tok = GetToken(&Tokenizer);
             }
@@ -296,6 +296,7 @@ main(int argc, char **args)
             {
                 fillBendTable(&BendTable, table, rowcount);
                 printBendTable(&BendTable);
+                //debugPrintBendTable(&BendTable);
             }
             else
             {

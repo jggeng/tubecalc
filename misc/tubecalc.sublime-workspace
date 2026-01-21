@@ -108,11 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "/W/scratch/2017+Calendar+Year+NA+Accessory+Pricing+(Rev+7).tab",
+			"file": "/C/dev/git/tubecalc/code/BendTable.h",
 			"settings":
 			{
-				"buffer_size": 48836,
-				"encoding": "Western (Windows 1252)",
+				"buffer_size": 596,
 				"line_ending": "Windows"
 			}
 		}
@@ -186,15 +185,22 @@
 	],
 	"file_history":
 	[
-		"/C/dev/git/tubecalc/code/ig_tokenizer.cpp",
+		"/C/dev/misc/GetKey/get-win7-key.vbs",
+		"/C/dev/misc/GetKey/hp820win7pro.key",
+		"//WPPBK-FS1/Users$/jgasper/Desktop/CAN2_AeaRecording.txt",
+		"/W/can_parser/c/build/fandata.txt",
+		"/W/can_parser/c/code/generateSPNAccessorMeta.cpp",
 		"/C/dev/git/tubecalc/code/BendTable.h",
+		"/C/dev/git/tubecalc/code/tubecalc.cpp",
+		"/C/dev/git/tubecalc/code/ig_tokenizer.cpp",
+		"/W/misc/Flory9974_Telematics_Analysis/flory_tele.py",
+		"/W/scratch/2017+Calendar+Year+NA+Accessory+Pricing+(Rev+7).tab",
 		"/C/dev/git/tubecalc/code/HandmadeMath.h",
 		"/W/standard_job/JobDump/JobDump/Program.cs",
 		"/W/scratch/Set-ScreenResolution.ps1",
 		"/W/scratch/scratch.py",
 		"/C/dev/git/tubecalc/code/ig_util.cpp",
 		"/W/git/tubecalc/build/pt36-4-0058.csv",
-		"/C/dev/git/tubecalc/code/tubecalc.cpp",
 		"/W/git/tubecalc/code/tubecalc.cpp",
 		"/W/url_downloader/ud.py",
 		"/W/tdms/code/removeDots.cpp",
@@ -306,14 +312,7 @@
 		"/C/dev/Sequoia/Sequoia/Views/Report/PartsOnOrderWO.cshtml",
 		"/C/dev/Sequoia/Sequoia/Views/PurchaseOrder/GetDrawingsRefactored.cshtml",
 		"/C/dev/Sequoia/Sequoia/Content/sequoia_report.css",
-		"/C/dev/Sequoia/Sequoia/Views/Shared/_Sequoia_Report.cshtml",
-		"/C/dev/Sequoia/Sequoia/Controllers/ReportController.cs",
-		"/C/dev/Sequoia/Sequoia/Models/AccountingSalesViewModel.cs",
-		"/C/dev/Sequoia/Sequoia/Views/Aggregate/WorkOrderPartsPull.cshtml",
-		"/C/dev/Sequoia/Sequoia/Views/Aggregate/WorkOrderPartsAggregate.cshtml",
-		"/C/dev/backup/ContentBk/reports.css",
-		"/C/Users/jgasper/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/dev/Sequoia/Sequoia/Views/Aggregate/Ag.cshtml"
+		"/C/dev/Sequoia/Sequoia/Views/Shared/_Sequoia_Report.cshtml"
 	],
 	"find":
 	{
@@ -331,6 +330,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"case(975)",
+			"975",
+			"1639",
+			"case(1639)",
+			"FEBD",
+			"Fan",
+			"fan",
+			"FEBD",
 			"printVec3",
 			"getBendTableFromCSV",
 			"Magnitude",
@@ -495,11 +502,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/W/scratch/2017+Calendar+Year+NA+Accessory+Pricing+(Rev+7).tab",
-					"semi_transient": false,
+					"file": "/C/dev/git/tubecalc/code/BendTable.h",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 48836,
+						"buffer_size": 596,
 						"regions":
 						{
 						},
@@ -512,20 +519,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 14
-							}
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -570,7 +566,7 @@
 		"cols":
 		[
 			0.0,
-			0.250730374723,
+			0.464289696757,
 			1.0
 		],
 		"rows":
@@ -914,7 +910,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 		"_vintageous_last_buffer_search_command": "vi_octothorp",
@@ -923,7 +919,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "C:\\Program Files\\Sublime Text 3"
+			"_cmdline_cd": "\\\\WPPBK-FS1\\Users$\\jgasper\\Desktop"
 		}
 	},
 	"show_minimap": true,

@@ -176,8 +176,7 @@ GetToken(tokenizer *Tokenizer)
         case '{': {Token.Type = Token_OpenBrace;} break;
         case '}': {Token.Type = Token_CloseBrace;} break;
         case ',': {Token.Type = Token_Comma;} break;
-        case '-': {Token.Type = Token_Minus;} break;
-                
+                        
         case '"':
         {
             Token.Type = Token_String;
@@ -221,10 +220,14 @@ GetToken(tokenizer *Tokenizer)
                 }
                 Token.TextLength = Tokenizer->At - Token.Text;
             }
-
-            else if (IsNumber(C))
+            else if ((C == '-') && !IsNumber(Tokenizer->At[0]))
             {
-				Token.Type = Token_Number;
+                Token.Type = Token_Minus;
+                break;
+            }
+            else if ((C == '-') || (IsNumber(C)))
+            {
+                Token.Type = Token_Number;
 				while(Tokenizer->At[0] && !IsEndOfLine(Tokenizer->At[0]))
                 {
                     if ((Tokenizer->At[0] == '.') || IsNumber(Tokenizer->At[0]))
